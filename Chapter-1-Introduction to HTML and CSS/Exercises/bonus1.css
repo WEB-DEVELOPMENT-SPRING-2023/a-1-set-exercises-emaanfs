@@ -3,7 +3,7 @@ body{
     margin-top: 5%;
     margin-bottom: 5%;
     padding-left: 1%;
-    background-image: url(images.jpeg);
+    background-image: url(textured.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -14,17 +14,20 @@ h1{
     font-size: 55px;
     text-transform: uppercase;
     padding-top: 2%;
+    color: antiquewhite;
 
 }
 
 h2{
     font-size: 25px;
+    color: antiquewhite;
    
 }
 
 h3{
     font-size: 25px;
     padding-left: 1%;
+    color: antiquewhite;
 }
 
 h6{
@@ -32,11 +35,13 @@ h6{
     text-decoration: underline;
     padding-left: 1%;
     text-align: center;
+    color: antiquewhite;
 
 }
 
 ul{
     font-size: 20px;
+    color: antiquewhite;
 }
 
 hr{
@@ -45,6 +50,7 @@ hr{
     margin-left:3.5%;
     margin-top:none ;
     margin-bottom: 0%;
+    color: antiquewhite;
 
 
 }
@@ -55,13 +61,13 @@ hr{
     margin-left: 1%;
     margin-right: none;
     border-top: 1px solid;
-    border-color: black;
+    border-color: rgb(255, 255, 255);
 }
 
 .line1{
     width: 1350px; 
     text-align: center;
-    border-color: rgb(82, 82, 82);
+    border-color: rgb(255, 255, 255);
 
 }
 
@@ -72,6 +78,7 @@ hr{
     width: 400px;
     float: left;
     overflow: hidden;
+    color: antiquewhite;
 }
 
 .block2{ /*animation*/
@@ -81,11 +88,13 @@ hr{
     margin-left:400px;
     overflow: hidden;
     float: left;
+    color: antiquewhite;
 }
 .wrapper {
     margin: auto;
     width: 200px; /*The width you want it to be when centered*/
     /* min-width works too */
     overflow: hidden;
+    color: antiquewhite;
 }
 
