@@ -52,9 +52,7 @@ hr{
     background-color: #220c0c;
     color: rgb(254, 226, 215);
 }
-  .btn:focus {
-      outline: none;
-}
+
 
 span{
     color: rgb(154, 33, 3);

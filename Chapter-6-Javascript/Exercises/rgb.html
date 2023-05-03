@@ -11,13 +11,22 @@
     <title>Document</title>
 </head>
 <body>
+    <embed 
+    src="pinball.mp3"
+    loop="true"
+    autostart="true"
+    hidden="true"
+    mastersound>
 
     <div class="guess">
         <h1>RGB Game</h1>
-
         <h2>Guess The Color</h2>
     </div>
+
+     <!--an id in a p tag so that it can styled in css-->
     <p id="colorcode">(R , <span>G</span>, B)</p>
+
+    <!--A DIV tag to align the cirlces in one line-->
     <div class="circle">
         <button class="btn" id="0" onclick="guess()"></button>
         <button class="btn" id="1" onclick="guess()"></button>
@@ -28,12 +37,18 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
 
-    <div id="center">
-        <button class="replay" onclick="restart()">Restart</button>
+    <!--A button tag for the user to click so the game would restart-->
+    <div class="center">
+        <button class="restart" onclick="restart()">
+            <span class="front">
+                Restart
+            </span>
+        </button>
     </div>
+
+    
+
     <script src="rgb.js"></script>
 
 </body>

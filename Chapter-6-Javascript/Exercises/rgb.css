@@ -1,6 +1,9 @@
 body{
-    background-image: url(2.jpg);
+    background-image: url(ae.jpeg);
     align-items: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .guess{
@@ -84,27 +87,50 @@ p{
     cursor: pointer;
     border-style: solid;
     border-width: 3px;
-    box-shadow: 2px 5px 10px;
+    box-shadow: 2px 3px 14px white;
 
 }
-
 
 .center{
     text-align: center;
-    margin-top: 20px;
-
+    position: relative;
+}
+.center.restart{
+    margin-top: 4%;
 }
 
-.replay{
-    height: 60px;
-    width: 120px;
-    font-size: larger;
-    text-align: center;
+
+.restart {
+    background: hsl(1, 61%, 21%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
     cursor: pointer;
-    background-color: #715965;
+    outline-offset: 4px;
 }
 
-span{
-    color: rgb(154, 33, 3);
-    font-family: 'Manrope', sans-serif;
+.front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(0, 99%, 27%);
+    color: white;
+    transform: translateY(-6px);
 }
+
+.restart:active .front {
+    transform: translateY(-2px);
+}
+
+.restart:hover{
+    background-color: #160c46;
+    color: rgb(0, 0, 0);
+
+}  
+
+.front:hover{
+    background-color: #11016a;
+    
+}
+
