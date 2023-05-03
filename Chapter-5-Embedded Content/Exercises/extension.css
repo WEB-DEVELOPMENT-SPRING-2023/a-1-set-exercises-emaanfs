@@ -1,0 +1,94 @@
+body{
+    background-image: url(forest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+    color: beige;
+    text-align: center;
+    padding-top: 4%;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+hr{
+    width: 180px;
+
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: rgb(129, 10, 10);
+    border-radius: 10px;
+    color: #fff;
+    margin: 1rem; 
+    padding: 20px 36px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 240px;
+    margin-right: 20px;
+    box-shadow: 5px 3px 19px black;
+    border: black;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    background-color: #220c0c;
+    color: rgb(254, 226, 215);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;    
+    border: solid 2px #897e7e;
+}
+
+div {
+    margin: 26px 60px;
+
+}
+
+
+button {
+    padding: 18px 33px;
+    font-size: 19px;
+    background-color: rgb(129, 10, 10);
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 3px 19px black;
+    border: black;
+    
+}  
+
+.note{
+    color: #fff;
+    font-size: 23px;
+    text-decoration: wavy;
+    text-shadow: 14px 1px rgb(104, 104, 104);
+}
+
+span{
+    color: rgb(154, 33, 3);
+    font-size: 59px;
+    font-family: 'Creepster', cursive;
+}

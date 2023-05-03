@@ -1,0 +1,63 @@
+
+
+body{
+    background-image: url(forest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+    color: beige;
+    text-align: center;
+    padding-top: 4%;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+hr{
+    width: 180px;
+
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: rgb(129, 10, 10);
+    border-radius: 10px;
+    color: #fff;
+    margin: 1rem; 
+    padding: 20px 36px;
+    width: 240px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 5px 3px 19px black;
+    border: black;
+
+}
+
+.btn:hover {
+    opacity: 0.8;
+    background-color: #220c0c;
+    color: rgb(254, 226, 215);
+}
+  .btn:focus {
+      outline: none;
+}
+
+span{
+    color: rgb(154, 33, 3);
+    font-size: 59px;
+    font-family: 'Creepster', cursive;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="rgb.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="guess">
+        <h1>RGB Game</h1>
+
+        <h2>Guess The Color</h2>
+    </div>
+    <p id="colorcode">(R , <span>G</span>, B)</p>
+    <div class="circle">
+        <button class="btn" id="0" onclick="guess()"></button>
+        <button class="btn" id="1" onclick="guess()"></button>
+        <button class="btn" id="2" onclick="guess()"></button>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="center">
+        <button class="replay" onclick="restart()">Restart</button>
+    </div>
+    <script src="rgb.js"></script>
+
+</body>
+</html>

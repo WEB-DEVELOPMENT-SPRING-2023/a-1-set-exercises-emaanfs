@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="chp6.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>GAS Calculator </h1>
+    <hr class="line1">
+    <br>
+    <br>
+    <br>
+
+    <div class="box">
+        <!--Form tag for the user to type in the litre purchased-->
+        <form class="G1">
+            <h4>Gas Per Litre</h4>
+            <input type="number" id="Gaslitre"value= "1.72">
+
+            <br>
+            <br>
+
+            <h4>Gas Purchased</h4>
+            <input type="number" id="GasPurchased" placeholder="Enter Litre Purshased">
+            <p id=TotalCost></p>
+        </form>
+         <!--Div tag to center and create a button-->
+        <div class="center">
+            <button onclick="gascalculator()" class="button button1">Calculate</button>
+        </div>
+    </div>
+
+
+    <script src="chp6.js"></script>
+
+</body>
+</html>

@@ -18,26 +18,116 @@
     border: 10px;
     cursor: pointer;
     border-radius: 20px;
+    text-decoration: none;
   }
+ 
+
+.container, .btn:hover{
+    background-color: bisque;
+    color: rgb(60, 60, 60);
+}  
 
 body{
     background-color: rgb(254, 239, 219);
+    background-image: url(d.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-size: cover;
+    margin: 0;
+    padding-left: 1%;
+    padding-bottom: 1%;
 }
 h1{
     text-shadow:2px 4px 4px rgba(0, 0, 0, 0.6);
     font-style: italic;
     text-align: center;
-    font-size: 45px;
+    font-size: 71px;
     color: rgba(62, 35, 2, 0.88);
 }
+
+h2{
+    text-decoration: underline;
+    padding-left: 1%;
+}
+
+h3{
+    text-decoration: underline;
+    padding-left: 1%;
+}
+
+h4{
+    font-size: 30px;
+    padding-left: 2%;
+    font-style:oblique;
+    font-weight: 600;
+}
+
 p{
     text-align:unset;
-    font-size: 20px;
+    font-size: 25px;
     font-style: oblique;
+    padding-left: 1%;
+}
+
+ul{
+    font-size: 18px;
 }
 header{
     font-size: 20px;
     font-style: oblique;
     text-align: left;
+    padding-left: 1%;
 
 }
+ul{
+    list-style-type: circle;
+}
+
+.D33{
+    border-radius: 12px;
+    float: right;
+    padding-right:5% ;
+    width: 450px;
+    padding-bottom: 9%;
+    padding-left: 7%;
+}
+
+.d-img{
+    width: 660px;
+    padding-bottom: 10%;
+    padding: 3%;
+    margin-left: 20%;
+    float: left;
+
+    
+   
+}
+
+.extra{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.text{
+    padding-right: 40%;
+}
+
+.website{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    color: #250000;
+
+}
+
+a{
+    color: rgb(177, 93, 64);
+}
+
+
+

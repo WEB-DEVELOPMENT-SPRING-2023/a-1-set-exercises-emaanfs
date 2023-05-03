@@ -7,13 +7,6 @@ h1{
     text-decoration: underline;
 
 }
-
-header {
-    background-color: #260d45;
-    margin: 0%;
-
-}
-
 .navigation{
     text-align: center;
     overflow: hidden;
@@ -24,6 +17,7 @@ header {
 
 .navigation a{
     color: #f2f2f2;
+    text-decoration: none;
     text-align: center;
     padding: 15px 19px;
 }
@@ -38,19 +32,22 @@ h2{
     font-size: 32px;
     font:bolder;
     text-align: left;
+    padding-left: 2%;
+}
+
+.header{
+    background-color: #260d45;
+    padding: 2%;
+    color: #e3dfdf;
 }
 p{
     font-size: 20px;
     font-weight: 500;
+    padding-left: 2%;
+    padding-right: 2%;
+
 }
 
-.lineup {
-    width: 500px;
-    height: 400px;
-    background-color: rgb(5, 54, 98);
-    color: #f2f2f2;
-    font-family: Arial, Helvetica, sans-serif;
-}
 ul{
     font-size: 20px;
     font-weight: lighter;
@@ -65,10 +62,12 @@ h3{
     font-weight: lighter;
     color: #ffffff;
 }
-img{
-    width: 600px ;
-    height: 400px ;
+
+.bro{
+    padding-left: 2%;
+
 }
+
 body {
     background-color: #e9e4e4;
     padding: 0%;
@@ -77,4 +76,18 @@ body {
 
 aside{
     float: right;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(5, 54, 98);
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right:2% ;
+    padding: 2%;
+    padding-left:2% ;
+    padding-bottom: 6%;
+    padding-top: 5px;
+    margin-top:2% ;
+    margin-bottom: 2%;
+
+    
 }

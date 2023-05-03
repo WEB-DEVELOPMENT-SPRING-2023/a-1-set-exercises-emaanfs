@@ -1,0 +1,110 @@
+body{
+    background-image: url(2.jpg);
+    align-items: center;
+}
+
+.guess{
+    padding-bottom: 4%;
+    width: 800px;
+    height: 160px;
+    margin: auto;
+    border-radius: 18px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 50px;
+    padding-bottom: 2%;
+    /* choosing our font */
+    background: linear-gradient(to right, rgba(41, 197, 163, 0) 44%, rgba(154, 96, 26, 0.5) 49%, rgba(202, 116, 18, 0) 81%), linear-gradient(rgb(95, 5, 8) 21%, rgb(7, 102, 133) 60%, rgb(16, 1, 82) 49%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: wave 2000ms ease alternate infinite;
+    transition: all 0.4s ease;
+
+}
+
+@keyframes wave {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 50vw 10px;
+    }
+  }
+h2{
+    color: beige;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 49px;
+    background: linear-gradient(to right, rgba(92, 17, 17, 0) 24%, rgba(208, 208, 10, 0.5) 49%, rgba(28, 15, 145, 0) 81%), linear-gradient(rgb(248, 187, 34) 29%, rgb(19, 136, 19) 60%, rgb(138, 17, 136) 49%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: wave 2000ms ease alternate infinite;
+    transition: all 0.4s ease;
+
+}
+
+p{
+    color: white;
+}
+
+.btn{
+    height: 120px;
+    width: 120px;
+    border-radius: 59%;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+#colorcode{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(253, 253, 253);
+    margin-top: 60px;
+    
+}
+
+.circle{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.btn{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 2px 5px 10px;
+
+}
+
+
+.center{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.replay{
+    height: 60px;
+    width: 120px;
+    font-size: larger;
+    text-align: center;
+    cursor: pointer;
+    background-color: #715965;
+}
+
+span{
+    color: rgb(154, 33, 3);
+    font-family: 'Manrope', sans-serif;
+}
